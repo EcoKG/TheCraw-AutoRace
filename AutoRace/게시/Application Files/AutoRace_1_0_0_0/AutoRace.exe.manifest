@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AutoRace.exe" version="1.0.0.0" publicKeyToken="efd73f39d771a833" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AutoRace" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AutoRace.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 매니페스트 옵션
+             Windows 사용자 계정 컨트롤 수준을 변경하려면 
+             requestedExecutionLevel 노드를 다음 중 하나로 바꿉니다.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            requestedExecutionLevel 요소를 지정하면 파일 및 레지스트리 가상화를 사용하지 않습니다. 
+            이전 버전과의 호환성을 위해 애플리케이션에 가상화가 필요한 경우
+            이 요소를 제거합니다.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoRace.exe" size="48600">
+      <assemblyIdentity name="AutoRace" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3c7qLsptJBIUp87iam/8NB5i6BPpZzeEUHMH4v1czdg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ko-KR\AutoRace.resources.dll" size="3584">
+      <assemblyIdentity name="AutoRace.resources" version="1.0.0.0" language="ko-KR" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>D4/QSqN8v9T8RHeUvGucX3qcvI+jdDahHMVuRO4C+8U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Eco_Lib.dll" size="7168">
+      <assemblyIdentity name="Eco_Lib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vMON7iY/Jj+8CuOqWfsDnn4sWlT2N/TnTy1jaHn7SZM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenCvSharp.dll" size="815616">
+      <assemblyIdentity name="OpenCvSharp" version="1.0.0.0" publicKeyToken="6ADAD1E807FEA099" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mQQCK/Jb3OlFpODDrabpTluBLkhzOR0Q4IzBdP7NGkU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sharpAHK.dll" size="4808192">
+      <assemblyIdentity name="sharpAHK" version="1.0.0.5" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4a4XSnDzvLWj38BfPPvDLHHdwHpd800DHZHu0SsdGQM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AutoRace.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 이 애플리케이션이 테스트되고 함께 작동하도록 설계된 Windows 버전
+           목록입니다. 해당 요소의 주석 처리를 제거하면 Windows에서
+           호환 가능성이 가장 큰 환경을 자동으로 선택합니다. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-U7KD1S5\Eco" issuerKeyHash="cb7b523067e1ac5f7557cacbbd46424559dcfb19" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>K24bXnXr7Cnx3GZT0ThRbY3gJHMAV18yhcWRuSLGWKM=</DigestValue></Reference></SignedInfo><SignatureValue>q6hHEt/ta+hAO64KrNjH9BNAz/SFdl1NnXeOFr3lV42Y9shGujqo4hodKfOkRc+AxtrbEZv8k45kO6dtEqMxfYLQnjCMDCOxYbZiWoCfH1egjkhWjKdBNgSxPLgABkMjJlV7RVsW14fEHgNItws3yt+yEabS5JIkxhB4q9u21gc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0oG/0xe8buOOoypJd/UNKCOpy3fjr1k7JB3AhAgqufBqVbtMiQgLjbQ5t7PKMxbE6V4cq6eD9WSgBPpF5AeUT/tNj0bhQGyw7fstvza/pp3aB7nLOW7LXPfEqW8KodQowYA+2IKvhbfLRKGVqE3HMsvap7NOCYJojy288XyV9vk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a358c622b991c585325f57007324e08d6d5138d15366dcf129eceb755e1b6e2b" Description="" Url=""><as:assemblyIdentity name="AutoRace.exe" version="1.0.0.0" publicKeyToken="efd73f39d771a833" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-U7KD1S5\Eco</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8jJB4mp8tzjE6K8L18VBFQIrX9vbTW8/VW3ux6Hwtgo=</DigestValue></Reference></SignedInfo><SignatureValue>nj1G/vRJPfTOO6HnrsYeuBrebX2iZzYkvmaEgq0lCIBRIDEgCQp/kMU0EKw3KWmHzrtb+cWLNvweS0Rixk2K44H0nzPizrqrcL4mTLJ5j3XzhGqF4KvY84T0YXHulYSB5m08Jd5RC663afTxazEZrXTX/pEKW6dZCl/KGEG456k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0oG/0xe8buOOoypJd/UNKCOpy3fjr1k7JB3AhAgqufBqVbtMiQgLjbQ5t7PKMxbE6V4cq6eD9WSgBPpF5AeUT/tNj0bhQGyw7fstvza/pp3aB7nLOW7LXPfEqW8KodQowYA+2IKvhbfLRKGVqE3HMsvap7NOCYJojy288XyV9vk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQYfmEbT3+U5FN5Hvb8DKmrTANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARABFAFMASwBUAE8AUAAtAFUANwBLAEQAMQBTADUAXABFAGMAbzAeFw0yMDAyMDIxOTUzMTRaFw0yMTAyMDIwMTUzMTRaMDExLzAtBgNVBAMeJgBEAEUAUwBLAFQATwBQAC0AVQA3AEsARAAxAFMANQBcAEUAYwBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSgb/TF7xu446jKkl39Q0oI6nLd+OvWTskHcCECCq58GpVu0yJCAuNtDm3s8ozFsTpXhyrp4P1ZKAE+kXkB5RP+02PRuFAbLDt+y2/Nr+mndoHucs5bstc98Spbwqh1CjBgD7Ygq+Ft8tEoZWoTccyy9qns04JgmiPLbzxfJX2+QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJiul8p/tnSowD9sTO7YsxKiX2qbmFDsRebDzLr8EbDbp/p63xAZqFXH+QaCYZFuvGeuD3NquNzTCs/z4Iwq0ZobkyCdNQ6SaO50Fp5Gqm72oz9EZduAvGwTEYsR0zptC7rkh/aCt0ipHK31rQ2BTj2R3vf122Qf024kOfjPDIia</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

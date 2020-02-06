@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRace", "AutoRace\AutoRace.csproj", "{0A514847-89E7-4388-9DE7-1E3BE0BF1749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco_Lib", "Eco_Lib\Eco_Lib.csproj", "{167E7601-685A-46AC-A31D-7DEE0E4F1B82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A514847-89E7-4388-9DE7-1E3BE0BF1749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A514847-89E7-4388-9DE7-1E3BE0BF1749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A514847-89E7-4388-9DE7-1E3BE0BF1749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A514847-89E7-4388-9DE7-1E3BE0BF1749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167E7601-685A-46AC-A31D-7DEE0E4F1B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167E7601-685A-46AC-A31D-7DEE0E4F1B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167E7601-685A-46AC-A31D-7DEE0E4F1B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167E7601-685A-46AC-A31D-7DEE0E4F1B82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1107EFA-D6D4-4F59-9956-6E3C29114163}
+	EndGlobalSection
+EndGlobal
