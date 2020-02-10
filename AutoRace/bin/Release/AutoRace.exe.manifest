@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cAqBQxoOu4yEJ5mmC2L6kVigXf3DnBC3hRwMy1oX/D8=</dsig:DigestValue>
+        <dsig:DigestValue>+a+If0xX/ERE9YzS8Q/BL1c5p41l2R/rgd37gtLQgBQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gpYhJpIIx2lUtg2o1lKqtU8uBwAzkz0jMUbwlVEdKPk=</dsig:DigestValue>
+        <dsig:DigestValue>Witlrsat40Wbgh+8+aBXeTygbaX7ta6mSb8hyrZeVKQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -75,18 +75,6 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>8u/NlN4KRfvlwOPX8N7srC6f7dMlasC7yHTEa+7Pds0=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sharpAHK.dll" size="4808192">
-      <assemblyIdentity name="sharpAHK" version="1.0.0.5" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4a4XSnDzvLWj38BfPPvDLHHdwHpd800DHZHu0SsdGQM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

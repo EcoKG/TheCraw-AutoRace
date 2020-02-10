@@ -45,7 +45,6 @@ E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\AutoRace.exe
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\AutoRace.pdb
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\ko-KR\AutoRace.resources.dll
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\Eco_Lib.dll
-E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\sharpAHK.dll
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\Eco_Lib.pdb
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\obj\Release\ko-KR\AutoRace.resources.dll
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\obj\Release\AutoRace.TrustInfo.xml
