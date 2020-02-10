@@ -38,10 +38,6 @@ E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\obj\Release\AutoRace.Mainfrm.ko-KR.re
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\obj\Release\AutoRace.csproj.GenerateResource.cache
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\obj\Release\AutoRace.exe
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\obj\Release\AutoRace.pdb
-E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\dll\x86\OpenCvSharpExtern.dll
-E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\dll\x86\opencv_ffmpeg400.dll
-E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\dll\x64\OpenCvSharpExtern.dll
-E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\dll\x64\opencv_ffmpeg400_64.dll
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\AutoRace.exe.config
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\AutoRace.exe.manifest
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\AutoRace.application
@@ -50,13 +46,7 @@ E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\AutoRace.pdb
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\ko-KR\AutoRace.resources.dll
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\Eco_Lib.dll
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\sharpAHK.dll
-E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\OpenCvSharp.dll
-E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\OpenCvSharp.Extensions.dll
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\Eco_Lib.pdb
-E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\OpenCvSharp.pdb
-E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\OpenCvSharp.xml
-E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\OpenCvSharp.Extensions.pdb
-E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Release\OpenCvSharp.Extensions.xml
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\obj\Release\ko-KR\AutoRace.resources.dll
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\obj\Release\AutoRace.TrustInfo.xml
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\obj\Release\AutoRace.exe.manifest

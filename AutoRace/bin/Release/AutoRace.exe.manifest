@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoRace.exe" size="350680">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoRace.exe" size="351704">
       <assemblyIdentity name="AutoRace" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1J5uzTahTGcMQnyBlAQ0ITEjIeBFNCG73QGJkLkM/So=</dsig:DigestValue>
+        <dsig:DigestValue>cAqBQxoOu4yEJ5mmC2L6kVigXf3DnBC3hRwMy1oX/D8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,43 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7Md1tC63OHGjTOjvx+1/FZg5u+3nGKQrUklltu0zvoA=</dsig:DigestValue>
+        <dsig:DigestValue>gpYhJpIIx2lUtg2o1lKqtU8uBwAzkz0jMUbwlVEdKPk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Eco_Lib.dll" size="7680">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Eco_Lib.dll" size="17408">
       <assemblyIdentity name="Eco_Lib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2NH94wrmG0w0Hg9kFT6kpOMLVJW6nThnEII6YaGLTAA=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenCvSharp.dll" size="840704">
-      <assemblyIdentity name="OpenCvSharp" version="1.0.0.0" publicKeyToken="6ADAD1E807FEA099" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OO9mta9gSv7bqpUDoSZwZ1Td3O48VNsnDkDLrDQj50I=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenCvSharp.Extensions.dll" size="25088">
-      <assemblyIdentity name="OpenCvSharp.Extensions" version="1.0.0.0" publicKeyToken="6ADAD1E807FEA099" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zB0y+pYT+nPZONChjV6erHF1jWCc+aO4QFaauMhL7oI=</dsig:DigestValue>
+        <dsig:DigestValue>8u/NlN4KRfvlwOPX8N7srC6f7dMlasC7yHTEa+7Pds0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
