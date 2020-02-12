@@ -126,10 +126,10 @@
     <value>11</value>
   </data>
   <data name="loglistbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 249</value>
+    <value>459, 37</value>
   </data>
   <data name="loglistbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>350, 125</value>
+    <value>267, 213</value>
   </data>
   <data name="loglistbox.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -144,7 +144,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;loglistbox.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>25</value>
   </data>
   <data name="allrevenuslab.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -157,7 +157,7 @@
     <value>NoControl</value>
   </data>
   <data name="allrevenuslab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 40</value>
+    <value>20, 35</value>
   </data>
   <data name="allrevenuslab.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 17</value>
@@ -190,7 +190,7 @@
     <value>NoControl</value>
   </data>
   <data name="countlab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 17</value>
+    <value>26, 14</value>
   </data>
   <data name="countlab.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 17</value>
@@ -214,16 +214,13 @@
     <value>1</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 173</value>
+    <value>10, 188</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 66</value>
+    <value>120, 60</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>INFO</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
@@ -235,43 +232,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="savebtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>맑은 고딕, 9pt, style=Bold</value>
-  </data>
-  <data name="savebtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="savebtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 103</value>
-  </data>
-  <data name="savebtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 18</value>
-  </data>
-  <data name="savebtn.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="savebtn.Text" xml:space="preserve">
-    <value>save</value>
-  </data>
-  <data name="&gt;&gt;savebtn.Name" xml:space="preserve">
-    <value>savebtn</value>
-  </data>
-  <data name="&gt;&gt;savebtn.Type" xml:space="preserve">
-    <value>EcoLib.UI.EcoButton, AutoRace, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;savebtn.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;savebtn.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>24</value>
   </data>
   <data name="bruntimetxt.Font" type="System.Drawing.Font, System.Drawing">
-    <value>굴림, 8.25pt</value>
+    <value>맑은 고딕, 11.25pt, style=Bold</value>
   </data>
   <data name="bruntimetxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 55</value>
+    <value>336, 103</value>
   </data>
   <data name="bruntimetxt.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>
@@ -282,6 +249,9 @@
   <data name="bruntimetxt.Text" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="bruntimetxt.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;bruntimetxt.Name" xml:space="preserve">
     <value>bruntimetxt</value>
   </data>
@@ -289,25 +259,25 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;bruntimetxt.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;bruntimetxt.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>10</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>맑은 고딕, 9pt, style=Bold</value>
+    <value>맑은 고딕, 11.25pt, style=Bold</value>
   </data>
   <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 59</value>
+    <value>147, 37</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 15</value>
+    <value>104, 20</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -322,25 +292,25 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>12</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>맑은 고딕, 9pt, style=Bold</value>
+    <value>맑은 고딕, 11.25pt, style=Bold</value>
   </data>
   <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 85</value>
+    <value>147, 59</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 15</value>
+    <value>164, 20</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -355,16 +325,16 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>13</value>
   </data>
   <data name="rarwpress.Font" type="System.Drawing.Font, System.Drawing">
-    <value>굴림, 8.25pt</value>
+    <value>맑은 고딕, 11.25pt, style=Bold</value>
   </data>
   <data name="rarwpress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 83</value>
+    <value>336, 59</value>
   </data>
   <data name="rarwpress.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>
@@ -375,6 +345,9 @@
   <data name="rarwpress.Text" xml:space="preserve">
     <value>100</value>
   </data>
+  <data name="rarwpress.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;rarwpress.Name" xml:space="preserve">
     <value>rarwpress</value>
   </data>
@@ -382,28 +355,25 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;rarwpress.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;rarwpress.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>15</value>
   </data>
   <data name="nitrocomb.Items" xml:space="preserve">
-    <value>LShift</value>
-  </data>
-  <data name="nitrocomb.Items1" xml:space="preserve">
     <value>LCtrl</value>
   </data>
+  <data name="nitrocomb.Items1" xml:space="preserve">
+    <value>LShift</value>
+  </data>
   <data name="nitrocomb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>234, 74</value>
+    <value>336, 181</value>
   </data>
   <data name="nitrocomb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+    <value>63, 20</value>
   </data>
   <data name="nitrocomb.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
-  </data>
-  <data name="nitrocomb.Text" xml:space="preserve">
-    <value>LShift</value>
   </data>
   <data name="&gt;&gt;nitrocomb.Name" xml:space="preserve">
     <value>nitrocomb</value>
@@ -412,25 +382,28 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;nitrocomb.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;nitrocomb.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>19</value>
   </data>
   <data name="rndmoneytb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>굴림, 8.25pt</value>
+    <value>맑은 고딕, 11.25pt, style=Bold</value>
   </data>
   <data name="rndmoneytb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 27</value>
+    <value>336, 37</value>
   </data>
   <data name="rndmoneytb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 20</value>
+    <value>63, 20</value>
   </data>
   <data name="rndmoneytb.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="rndmoneytb.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="rndmoneytb.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;rndmoneytb.Name" xml:space="preserve">
     <value>rndmoneytb</value>
@@ -439,10 +412,10 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;rndmoneytb.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;rndmoneytb.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>17</value>
   </data>
   <data name="rightcomb.Items" xml:space="preserve">
     <value>D</value>
@@ -451,16 +424,13 @@
     <value>Right</value>
   </data>
   <data name="rightcomb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>234, 48</value>
+    <value>336, 155</value>
   </data>
   <data name="rightcomb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+    <value>63, 20</value>
   </data>
   <data name="rightcomb.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
-  </data>
-  <data name="rightcomb.Text" xml:space="preserve">
-    <value>D</value>
   </data>
   <data name="&gt;&gt;rightcomb.Name" xml:space="preserve">
     <value>rightcomb</value>
@@ -469,25 +439,25 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;rightcomb.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;rightcomb.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>22</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>맑은 고딕, 9pt, style=Bold</value>
+    <value>맑은 고딕, 11.25pt, style=Bold</value>
   </data>
   <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 30</value>
+    <value>147, 103</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 15</value>
+    <value>74, 20</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -502,28 +472,25 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>18</value>
   </data>
   <data name="upcomb.Items" xml:space="preserve">
-    <value>W</value>
-  </data>
-  <data name="upcomb.Items1" xml:space="preserve">
     <value>UP</value>
   </data>
+  <data name="upcomb.Items1" xml:space="preserve">
+    <value>W</value>
+  </data>
   <data name="upcomb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>234, 22</value>
+    <value>336, 129</value>
   </data>
   <data name="upcomb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+    <value>63, 20</value>
   </data>
   <data name="upcomb.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
-  </data>
-  <data name="upcomb.Text" xml:space="preserve">
-    <value>W</value>
   </data>
   <data name="&gt;&gt;upcomb.Name" xml:space="preserve">
     <value>upcomb</value>
@@ -532,34 +499,10 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;upcomb.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;upcomb.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 35</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>350, 132</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>SETTING</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;upcomb.ZOrder" xml:space="preserve">
+    <value>23</value>
   </data>
   <data name="timerlab.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -571,16 +514,16 @@
     <value>NoControl</value>
   </data>
   <data name="timerlab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 1</value>
+    <value>22, 2</value>
   </data>
   <data name="timerlab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 17</value>
+    <value>94, 17</value>
   </data>
   <data name="timerlab.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="timerlab.Text" xml:space="preserve">
-    <value>[0시간0분0초 사용중]</value>
+    <value>[0시간0분0초]</value>
   </data>
   <data name="&gt;&gt;timerlab.Name" xml:space="preserve">
     <value>timerlab</value>
@@ -598,10 +541,10 @@
     <value>Bottom</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 380</value>
+    <value>0, 260</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>360, 20</value>
+    <value>140, 20</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -616,31 +559,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="uiCloseButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="uiCloseButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 5</value>
-  </data>
-  <data name="uiCloseButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 15</value>
-  </data>
-  <data name="uiCloseButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;uiCloseButton1.Name" xml:space="preserve">
-    <value>uiCloseButton1</value>
-  </data>
-  <data name="&gt;&gt;uiCloseButton1.Type" xml:space="preserve">
-    <value>LibAutoHotkeyScriptManager.UICloseButton, AutoRace, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;uiCloseButton1.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;uiCloseButton1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>21</value>
   </data>
   <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -649,7 +568,7 @@
     <value>0, 0</value>
   </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>360, 24</value>
+    <value>140, 15</value>
   </data>
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -664,71 +583,395 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="nitrowaittime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 11.25pt, style=Bold</value>
+  </data>
+  <data name="nitrowaittime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 81</value>
+  </data>
+  <data name="nitrowaittime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="nitrowaittime.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="nitrowaittime.Text" xml:space="preserve">
+    <value>4000</value>
+  </data>
+  <data name="nitrowaittime.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;nitrowaittime.Name" xml:space="preserve">
+    <value>nitrowaittime</value>
+  </data>
+  <data name="&gt;&gt;nitrowaittime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nitrowaittime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nitrowaittime.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 81</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 20</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>니트로 대기시간</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 129</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>가속 키</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 155</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>우측 키</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 181</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>니트로 키</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ecoButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt, style=Bold</value>
+  </data>
+  <data name="ecoButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ecoButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 140</value>
+  </data>
+  <data name="ecoButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 40</value>
+  </data>
+  <data name="ecoButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="ecoButton2.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;ecoButton2.Name" xml:space="preserve">
+    <value>ecoButton2</value>
+  </data>
+  <data name="&gt;&gt;ecoButton2.Type" xml:space="preserve">
+    <value>Eco_Skin.EcoButton, Eco_Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ecoButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ecoButton2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="nitrowaittog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nitrowaittog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 81</value>
+  </data>
+  <data name="nitrowaittog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="nitrowaittog.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;nitrowaittog.Name" xml:space="preserve">
+    <value>nitrowaittog</value>
+  </data>
+  <data name="&gt;&gt;nitrowaittog.Type" xml:space="preserve">
+    <value>Eco_Skin.EcoToggleButton, Eco_Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nitrowaittog.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nitrowaittog.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rightpresstog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rightpresstog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 59</value>
+  </data>
+  <data name="rightpresstog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="rightpresstog.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;rightpresstog.Name" xml:space="preserve">
+    <value>rightpresstog</value>
+  </data>
+  <data name="&gt;&gt;rightpresstog.Type" xml:space="preserve">
+    <value>Eco_Skin.EcoToggleButton, Eco_Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rightpresstog.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rightpresstog.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="startwaittog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="startwaittog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 37</value>
+  </data>
+  <data name="startwaittog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="startwaittog.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;startwaittog.Name" xml:space="preserve">
+    <value>startwaittog</value>
+  </data>
+  <data name="&gt;&gt;startwaittog.Type" xml:space="preserve">
+    <value>Eco_Skin.EcoToggleButton, Eco_Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;startwaittog.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;startwaittog.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ecoButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt, style=Bold</value>
+  </data>
+  <data name="ecoButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ecoButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 100</value>
+  </data>
+  <data name="ecoButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 40</value>
+  </data>
+  <data name="ecoButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="ecoButton1.Text" xml:space="preserve">
+    <value> Setting</value>
+  </data>
+  <data name="&gt;&gt;ecoButton1.Name" xml:space="preserve">
+    <value>ecoButton1</value>
+  </data>
+  <data name="&gt;&gt;ecoButton1.Type" xml:space="preserve">
+    <value>Eco_Skin.EcoButton, Eco_Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ecoButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ecoButton1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="savebtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 12pt, style=Bold</value>
+  </data>
+  <data name="savebtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="savebtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 207</value>
+  </data>
+  <data name="savebtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 39</value>
+  </data>
+  <data name="savebtn.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="savebtn.Text" xml:space="preserve">
+    <value>   Save</value>
+  </data>
+  <data name="&gt;&gt;savebtn.Name" xml:space="preserve">
+    <value>savebtn</value>
+  </data>
+  <data name="&gt;&gt;savebtn.Type" xml:space="preserve">
+    <value>Eco_Skin.EcoButton, Eco_Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;savebtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;savebtn.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
   <data name="stopbtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>맑은 고딕, 9pt, style=Bold</value>
+    <value>Segoe Print, 9.75pt, style=Bold</value>
   </data>
   <data name="stopbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="stopbtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>273, 215</value>
+    <value>10, 60</value>
   </data>
   <data name="stopbtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>120, 40</value>
   </data>
   <data name="stopbtn.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>11</value>
   </data>
   <data name="stopbtn.Text" xml:space="preserve">
-    <value>Stop[F2]</value>
+    <value>    Stop [F2]</value>
   </data>
   <data name="&gt;&gt;stopbtn.Name" xml:space="preserve">
     <value>stopbtn</value>
   </data>
   <data name="&gt;&gt;stopbtn.Type" xml:space="preserve">
-    <value>EcoLib.UI.EcoButton, AutoRace, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Eco_Skin.EcoButton, Eco_Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;stopbtn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;stopbtn.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>14</value>
   </data>
   <data name="startbtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>맑은 고딕, 9pt, style=Bold</value>
+    <value>Segoe Print, 9.75pt, style=Bold</value>
   </data>
   <data name="startbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="startbtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>273, 179</value>
+    <value>10, 20</value>
   </data>
   <data name="startbtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>120, 40</value>
   </data>
   <data name="startbtn.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>10</value>
   </data>
   <data name="startbtn.Text" xml:space="preserve">
-    <value>Start[F1]</value>
+    <value>    Start [F1]</value>
   </data>
   <data name="&gt;&gt;startbtn.Name" xml:space="preserve">
     <value>startbtn</value>
   </data>
   <data name="&gt;&gt;startbtn.Type" xml:space="preserve">
-    <value>EcoLib.UI.EcoButton, AutoRace, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Eco_Skin.EcoButton, Eco_Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;startbtn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;startbtn.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>16</value>
   </data>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -736,7 +979,7 @@
     <value>7, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>360, 400</value>
+    <value>140, 280</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

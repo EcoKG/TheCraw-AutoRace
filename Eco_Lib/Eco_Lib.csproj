@@ -55,6 +55,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ObjectHelper\ObjectHelper.cs" />
     <Compile Include="RegistryHelper\RegistryHelper.cs" />
+    <Compile Include="UI\EcoButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\EcoComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\EcoToggleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="WinApi\WinApi.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

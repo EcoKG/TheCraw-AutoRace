@@ -39,7 +39,6 @@ E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Debug\AutoRace.exe
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Debug\AutoRace.pdb
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Debug\ko-KR\AutoRace.resources.dll
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Debug\Eco_Lib.dll
-E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Debug\sharpAHK.dll
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\bin\Debug\Eco_Lib.pdb
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\obj\Debug\AutoRace.csprojAssemblyReference.cache
 E:\Dev\Vb.netSrc\TheCraw AutoRace\AutoRace\obj\Debug\AutoRace.Mainfrm.resources

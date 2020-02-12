@@ -30,9 +30,10 @@ namespace AutoRace
             public InputKeyLib.KEYEVENTF rightkeytype;
             public InputKeyLib.KEYEVENTF upkeytype;
             public InputKeyLib.KEYEVENTF nitrokeytype;
-            public int waittime;
+            public int presstime;
             public int burntime;
-            public Getsetting(string rightkey, string upkey, string nitrokey, int waittime, int burntime)
+            public int nitrotime;
+            public Getsetting(string rightkey, string upkey, string nitrokey, int presstime, int burntime,int nitrotime)
             {
                 this.rightkey = InputKeyLib.ScanCodeShort.RIGHT;
                 this.upkey = InputKeyLib.ScanCodeShort.UP;
@@ -40,8 +41,9 @@ namespace AutoRace
                 this.rightkeytype = InputKeyLib.KEYEVENTF.EXTENDEDKEY;
                 this.upkeytype = InputKeyLib.KEYEVENTF.EXTENDEDKEY;
                 this.nitrokeytype = InputKeyLib.KEYEVENTF.EXTENDEDKEY;
-                this.waittime = waittime;
+                this.presstime = presstime;
                 this.burntime = burntime;
+                this.nitrotime = nitrotime;
                 switch (upkey)
                 {
                     case "W":
@@ -84,7 +86,7 @@ namespace AutoRace
             InitializeComponent();
             Eco = Eco_Lib.EcoLib.GetInstance();
             Task.Factory.StartNew(() => hokeytask());
-            if (rkey.ValueCount < 6)
+            if (rkey.ValueCount < 10)
             {
                 rkey.SetValue("upkey", upcomb.Text);
                 rkey.SetValue("rightkey", rightcomb.Text);
@@ -92,6 +94,10 @@ namespace AutoRace
                 rkey.SetValue("rightpreetime", rarwpress.Text);
                 rkey.SetValue("bruntime", bruntimetxt.Text);
                 rkey.SetValue("Roundmoney", rndmoneytb.Text);
+                rkey.SetValue("NitroTime", nitrowaittime.Text);
+                rkey.SetValue("StartWaitToggle", startwaittog.Checked.ToString());
+                rkey.SetValue("RightPressToggle", rightpresstog.Checked.ToString());
+                rkey.SetValue("NitroWaitToggle", nitrowaittog.Checked.ToString());
             }
             else
             {
@@ -101,6 +107,10 @@ namespace AutoRace
                 Eco.CtlSetTxt(rarwpress, rkey.GetValue("rightpreetime"));
                 Eco.CtlSetTxt(bruntimetxt, rkey.GetValue("bruntime"));
                 Eco.CtlSetTxt(rndmoneytb, rkey.GetValue("Roundmoney"));
+                Eco.CtlSetTxt(nitrowaittime, rkey.GetValue("NitroTime"));
+                startwaittog.Checked = bool.Parse(rkey.GetValue("StartWaitToggle").ToString());
+                rightpresstog.Checked = bool.Parse(rkey.GetValue("RightPressToggle").ToString());
+                nitrowaittog.Checked = bool.Parse(rkey.GetValue("NitroWaitToggle").ToString());
             }
         }
         private void Mainfrm_Load(object sender, EventArgs e)
@@ -108,6 +118,18 @@ namespace AutoRace
             ab = new infowin();
             startbtn.Enabled = true;
             stopbtn.Enabled = false;
+            if (startwaittog.Checked)
+                rndmoneytb.Enabled = true;
+            else
+                rndmoneytb.Enabled = false;
+            if (rightpresstog.Checked)
+                rarwpress.Enabled = true;
+            else
+                rarwpress.Enabled = false;
+            if (nitrowaittog.Checked)
+                nitrowaittime.Enabled = true;
+            else
+                nitrowaittime.Enabled = false;
             setlog("프로그렘 실행됨");
         }
         private void starttask()
@@ -169,7 +191,7 @@ namespace AutoRace
             int giercnt = 1, cnt = 0, finish = 0;
             this.Invoke(new MethodInvoker(delegate ()
             {
-                settinginfo = new Getsetting(rightcomb.Text, upcomb.Text, nitrocomb.Text, int.Parse(rarwpress.Text), int.Parse(bruntimetxt.Text));
+                settinginfo = new Getsetting(rightcomb.Text, upcomb.Text, nitrocomb.Text, rightpresstog.Checked ? int.Parse(rarwpress.Text) : 100, startwaittog.Checked ? int.Parse(bruntimetxt.Text) : 4000,nitrowaittog.Checked ? int.Parse(nitrowaittime.Text) : 0);
             }));
             while (cancel)
             {
@@ -210,9 +232,9 @@ namespace AutoRace
                         if (giercnt == 5)
                         {
                             Eco.SendDown(settinginfo.rightkey, settinginfo.rightkeytype);
-                            Eco.Delay(settinginfo.waittime);
+                            Eco.Delay(settinginfo.presstime);
                             Eco.SendUp(settinginfo.rightkey, settinginfo.rightkeytype);
-                            Eco.Delay(4000);
+                            Eco.Delay(settinginfo.nitrotime);
                             Eco.SendDown(settinginfo.nitrokey, settinginfo.nitrokeytype);
                             giercnt = 1;
                             break;
@@ -294,7 +316,7 @@ namespace AutoRace
                 this.Invoke(new MethodInvoker(delegate ()
                 {
                     ts = sw.Elapsed;
-                    string ti = String.Format("Run Time : <{0}H {1}M {2}H> ", sw.Elapsed.Hours, sw.Elapsed.Minutes, sw.Elapsed.Seconds);
+                    string ti = String.Format("Run Time : <{0}H {1}M {2}S> ", sw.Elapsed.Hours, sw.Elapsed.Minutes, sw.Elapsed.Seconds);
                     Eco.CtlSetTxt(timerlab, ti);
                     Eco.CtlSetTxt(ab.infotimelab, ti);
                 }));
@@ -336,10 +358,6 @@ namespace AutoRace
             }
             Sw.Close();
         }
-        private void uiCloseButton1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
         private void panel2_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -357,11 +375,51 @@ namespace AutoRace
             rkey.SetValue("rightpreetime", rarwpress.Text);
             rkey.SetValue("bruntime", bruntimetxt.Text);
             rkey.SetValue("Roundmoney", rndmoneytb.Text);
+            rkey.SetValue("NitroTime", nitrowaittime.Text);
+            rkey.SetValue("StartWaitToggle", startwaittog.Checked.ToString());
+            rkey.SetValue("RightPressToggle", rightpresstog.Checked.ToString());
+            rkey.SetValue("NitroWaitToggle", nitrowaittog.Checked.ToString());
+            this.Size = new System.Drawing.Size(140, 280);
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             //Eco.SendDown(InputKeyLib.ScanCodeShort.KEY_W);
+        }
+
+        private void ecoButton1_Click(object sender, EventArgs e)
+        {
+            this.Size = new System.Drawing.Size(740, 280);
+        }
+
+        private void ecoButton2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void startwaittog_CheckedChanged(object sender, EventArgs e)
+        {
+            if (startwaittog.Checked)
+                rndmoneytb.Enabled = true;
+            else
+                rndmoneytb.Enabled = false;
+
+        }
+
+        private void rightpresstog_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rightpresstog.Checked)
+                rarwpress.Enabled = true;
+            else
+                rarwpress.Enabled = false;
+        }
+
+        private void nitrowaittog_CheckedChanged(object sender, EventArgs e)
+        {
+            if (nitrowaittog.Checked)
+                nitrowaittime.Enabled = true;
+            else
+                nitrowaittime.Enabled = false;
         }
     }
 }

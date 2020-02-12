@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoRace.exe" size="354264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoRace.exe" size="368088">
       <assemblyIdentity name="AutoRace" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iH2dynp827zvamK+nosZTpROF9XZEOftu2Oz2l/RjKw=</dsig:DigestValue>
+        <dsig:DigestValue>qLKbNBvUXguKqfTemO3t7rR12KW/K05Srvw26BK//w4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,31 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>H5xMegLkfmeyCbzXBgJsbixuKIOGWWU3gjrTqceUK7Y=</dsig:DigestValue>
+        <dsig:DigestValue>6w/qKMHdEDYf/GVQNhb2bMgelgCooi8T1QbINZLnVl8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Eco_Lib.dll" size="17920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Eco_Lib.dll" size="23040">
       <assemblyIdentity name="Eco_Lib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>if41PJWtYF7lVPhIXIlCh8HSqRj6RSKyGg4lXISkAFM=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sharpAHK.dll" size="4808192">
-      <assemblyIdentity name="sharpAHK" version="1.0.0.5" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4a4XSnDzvLWj38BfPPvDLHHdwHpd800DHZHu0SsdGQM=</dsig:DigestValue>
+        <dsig:DigestValue>irZ5mBAgKUZ/m3wB20ggNAlh4kJJvrAqR7EzW8aah8A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

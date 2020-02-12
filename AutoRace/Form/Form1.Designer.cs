@@ -34,8 +34,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.allrevenuslab = new System.Windows.Forms.Label();
             this.countlab = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.savebtn = new EcoLib.UI.EcoButton();
             this.bruntimetxt = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,14 +46,22 @@
             this.timerlab = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.uiCloseButton1 = new LibAutoHotkeyScriptManager.UICloseButton();
-            this.stopbtn = new EcoLib.UI.EcoButton();
-            this.startbtn = new EcoLib.UI.EcoButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.nitrowaittime = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.ecoButton2 = new Eco_Skin.EcoButton();
+            this.nitrowaittog = new Eco_Skin.EcoToggleButton();
+            this.rightpresstog = new Eco_Skin.EcoToggleButton();
+            this.startwaittog = new Eco_Skin.EcoToggleButton();
+            this.ecoButton1 = new Eco_Skin.EcoButton();
+            this.savebtn = new Eco_Skin.EcoButton();
+            this.stopbtn = new Eco_Skin.EcoButton();
+            this.startbtn = new Eco_Skin.EcoButton();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // loglistbox
@@ -67,9 +73,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.groupBox1.Controls.Add(this.allrevenuslab);
             this.groupBox1.Controls.Add(this.countlab);
-            this.groupBox1.ForeColor = System.Drawing.Color.White;
+            this.groupBox1.ForeColor = System.Drawing.Color.Blue;
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
@@ -77,41 +84,18 @@
             // allrevenuslab
             // 
             resources.ApplyResources(this.allrevenuslab, "allrevenuslab");
+            this.allrevenuslab.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.allrevenuslab.Name = "allrevenuslab";
             // 
             // countlab
             // 
             resources.ApplyResources(this.countlab, "countlab");
+            this.countlab.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.countlab.Name = "countlab";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.savebtn);
-            this.groupBox2.Controls.Add(this.bruntimetxt);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.rarwpress);
-            this.groupBox2.Controls.Add(this.nitrocomb);
-            this.groupBox2.Controls.Add(this.rndmoneytb);
-            this.groupBox2.Controls.Add(this.rightcomb);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.upcomb);
-            this.groupBox2.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.groupBox2, "groupBox2");
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.TabStop = false;
-            // 
-            // savebtn
-            // 
-            this.savebtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(123)))), ((int)(((byte)(196)))));
-            resources.ApplyResources(this.savebtn, "savebtn");
-            this.savebtn.ForeColor = System.Drawing.Color.White;
-            this.savebtn.Name = "savebtn";
-            this.savebtn.UseVisualStyleBackColor = false;
-            this.savebtn.Click += new System.EventHandler(this.savebtn_Click);
             // 
             // bruntimetxt
             // 
+            this.bruntimetxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.bruntimetxt, "bruntimetxt");
             this.bruntimetxt.Name = "bruntimetxt";
             // 
@@ -127,11 +111,14 @@
             // 
             // rarwpress
             // 
+            this.rarwpress.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.rarwpress, "rarwpress");
             this.rarwpress.Name = "rarwpress";
             // 
             // nitrocomb
             // 
+            this.nitrocomb.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.nitrocomb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.nitrocomb.FormattingEnabled = true;
             this.nitrocomb.Items.AddRange(new object[] {
             resources.GetString("nitrocomb.Items"),
@@ -141,11 +128,14 @@
             // 
             // rndmoneytb
             // 
+            this.rndmoneytb.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.rndmoneytb, "rndmoneytb");
             this.rndmoneytb.Name = "rndmoneytb";
             // 
             // rightcomb
             // 
+            this.rightcomb.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.rightcomb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.rightcomb.FormattingEnabled = true;
             this.rightcomb.Items.AddRange(new object[] {
             resources.GetString("rightcomb.Items"),
@@ -160,6 +150,8 @@
             // 
             // upcomb
             // 
+            this.upcomb.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.upcomb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.upcomb.FormattingEnabled = true;
             this.upcomb.Items.AddRange(new object[] {
             resources.GetString("upcomb.Items"),
@@ -170,65 +162,175 @@
             // timerlab
             // 
             resources.ApplyResources(this.timerlab, "timerlab");
-            this.timerlab.ForeColor = System.Drawing.Color.White;
+            this.timerlab.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.timerlab.Name = "timerlab";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(43)))), ((int)(((byte)(47)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.panel1.Controls.Add(this.timerlab);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.DimGray;
-            this.panel2.Controls.Add(this.uiCloseButton1);
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
-            // 
-            // uiCloseButton1
-            // 
-            this.uiCloseButton1.BackColor = System.Drawing.Color.Black;
-            resources.ApplyResources(this.uiCloseButton1, "uiCloseButton1");
-            this.uiCloseButton1.Name = "uiCloseButton1";
-            this.uiCloseButton1.UseVisualStyleBackColor = false;
-            this.uiCloseButton1.Click += new System.EventHandler(this.uiCloseButton1_Click);
-            // 
-            // stopbtn
-            // 
-            this.stopbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(123)))), ((int)(((byte)(196)))));
-            resources.ApplyResources(this.stopbtn, "stopbtn");
-            this.stopbtn.ForeColor = System.Drawing.Color.White;
-            this.stopbtn.Name = "stopbtn";
-            this.stopbtn.UseVisualStyleBackColor = false;
-            this.stopbtn.Click += new System.EventHandler(this.stopbtn_Click);
-            // 
-            // startbtn
-            // 
-            this.startbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(123)))), ((int)(((byte)(196)))));
-            resources.ApplyResources(this.startbtn, "startbtn");
-            this.startbtn.ForeColor = System.Drawing.Color.White;
-            this.startbtn.Name = "startbtn";
-            this.startbtn.UseVisualStyleBackColor = false;
-            this.startbtn.Click += new System.EventHandler(this.startbtn_Click);
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // nitrowaittime
+            // 
+            this.nitrowaittime.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.nitrowaittime, "nitrowaittime");
+            this.nitrowaittime.Name = "nitrowaittime";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.Name = "label6";
+            // 
+            // label7
+            // 
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.Name = "label7";
+            // 
+            // ecoButton2
+            // 
+            this.ecoButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ecoButton2.EdgeRound = 15;
+            resources.ApplyResources(this.ecoButton2, "ecoButton2");
+            this.ecoButton2.Name = "ecoButton2";
+            this.ecoButton2.RoundSize1 = 16;
+            this.ecoButton2.RoundSize2 = 10;
+            this.ecoButton2.RoundX = 10;
+            this.ecoButton2.TextOffset = 0;
+            this.ecoButton2.UseVisualStyleBackColor = false;
+            this.ecoButton2.Click += new System.EventHandler(this.ecoButton2_Click);
+            // 
+            // nitrowaittog
+            // 
+            this.nitrowaittog.BackColor = System.Drawing.Color.Gold;
+            resources.ApplyResources(this.nitrowaittog, "nitrowaittog");
+            this.nitrowaittog.Name = "nitrowaittog";
+            this.nitrowaittog.ToggleBoxWidth = 20;
+            this.nitrowaittog.UseVisualStyleBackColor = false;
+            this.nitrowaittog.CheckedChanged += new System.EventHandler(this.nitrowaittog_CheckedChanged);
+            // 
+            // rightpresstog
+            // 
+            this.rightpresstog.BackColor = System.Drawing.Color.Gold;
+            resources.ApplyResources(this.rightpresstog, "rightpresstog");
+            this.rightpresstog.Name = "rightpresstog";
+            this.rightpresstog.ToggleBoxWidth = 20;
+            this.rightpresstog.UseVisualStyleBackColor = false;
+            this.rightpresstog.CheckedChanged += new System.EventHandler(this.rightpresstog_CheckedChanged);
+            // 
+            // startwaittog
+            // 
+            this.startwaittog.BackColor = System.Drawing.Color.Gold;
+            resources.ApplyResources(this.startwaittog, "startwaittog");
+            this.startwaittog.Name = "startwaittog";
+            this.startwaittog.ToggleBoxWidth = 20;
+            this.startwaittog.UseVisualStyleBackColor = false;
+            this.startwaittog.CheckedChanged += new System.EventHandler(this.startwaittog_CheckedChanged);
+            // 
+            // ecoButton1
+            // 
+            this.ecoButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ecoButton1.EdgeRound = 15;
+            resources.ApplyResources(this.ecoButton1, "ecoButton1");
+            this.ecoButton1.Name = "ecoButton1";
+            this.ecoButton1.RoundSize1 = 16;
+            this.ecoButton1.RoundSize2 = 10;
+            this.ecoButton1.RoundX = 10;
+            this.ecoButton1.TextOffset = 0;
+            this.ecoButton1.UseVisualStyleBackColor = false;
+            this.ecoButton1.Click += new System.EventHandler(this.ecoButton1_Click);
+            // 
+            // savebtn
+            // 
+            this.savebtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.savebtn.EdgeRound = 15;
+            resources.ApplyResources(this.savebtn, "savebtn");
+            this.savebtn.Name = "savebtn";
+            this.savebtn.RoundSize1 = 10;
+            this.savebtn.RoundSize2 = 5;
+            this.savebtn.RoundX = 10;
+            this.savebtn.TextOffset = 0;
+            this.savebtn.UseVisualStyleBackColor = false;
+            this.savebtn.Click += new System.EventHandler(this.savebtn_Click);
+            // 
+            // stopbtn
+            // 
+            this.stopbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.stopbtn.EdgeRound = 15;
+            resources.ApplyResources(this.stopbtn, "stopbtn");
+            this.stopbtn.Name = "stopbtn";
+            this.stopbtn.RoundSize1 = 16;
+            this.stopbtn.RoundSize2 = 10;
+            this.stopbtn.RoundX = 10;
+            this.stopbtn.TextOffset = 0;
+            this.stopbtn.UseVisualStyleBackColor = false;
+            this.stopbtn.Click += new System.EventHandler(this.stopbtn_Click);
+            // 
+            // startbtn
+            // 
+            this.startbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.startbtn.EdgeRound = 15;
+            resources.ApplyResources(this.startbtn, "startbtn");
+            this.startbtn.Name = "startbtn";
+            this.startbtn.RoundSize1 = 16;
+            this.startbtn.RoundSize2 = 10;
+            this.startbtn.RoundX = 10;
+            this.startbtn.TextOffset = 0;
+            this.startbtn.UseVisualStyleBackColor = false;
+            this.startbtn.Click += new System.EventHandler(this.startbtn_Click);
+            // 
             // Mainfrm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(56)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.Controls.Add(this.ecoButton2);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.nitrowaittog);
+            this.Controls.Add(this.rightpresstog);
+            this.Controls.Add(this.startwaittog);
+            this.Controls.Add(this.ecoButton1);
+            this.Controls.Add(this.nitrowaittime);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.bruntimetxt);
+            this.Controls.Add(this.savebtn);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.stopbtn);
+            this.Controls.Add(this.rarwpress);
+            this.Controls.Add(this.startbtn);
+            this.Controls.Add(this.rndmoneytb);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.nitrocomb);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.stopbtn);
-            this.Controls.Add(this.startbtn);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.rightcomb);
+            this.Controls.Add(this.upcomb);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.loglistbox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -237,12 +339,10 @@
             this.Load += new System.EventHandler(this.Mainfrm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -251,7 +351,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label allrevenuslab;
         private System.Windows.Forms.Label countlab;
-        private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox rndmoneytb;
         private System.Windows.Forms.TextBox rarwpress;
         private System.Windows.Forms.Label label3;
@@ -260,15 +359,24 @@
         private System.Windows.Forms.ComboBox rightcomb;
         private System.Windows.Forms.ComboBox upcomb;
         private System.Windows.Forms.Label timerlab;
-        private EcoLib.UI.EcoButton startbtn;
-        private EcoLib.UI.EcoButton stopbtn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private LibAutoHotkeyScriptManager.UICloseButton uiCloseButton1;
         private System.Windows.Forms.TextBox bruntimetxt;
         private System.Windows.Forms.Label label1;
-        private EcoLib.UI.EcoButton savebtn;
         private System.Windows.Forms.Timer timer1;
+        private Eco_Skin.EcoButton startbtn;
+        private Eco_Skin.EcoButton stopbtn;
+        private Eco_Skin.EcoButton savebtn;
+        private System.Windows.Forms.TextBox nitrowaittime;
+        private System.Windows.Forms.Label label4;
+        private Eco_Skin.EcoButton ecoButton1;
+        private Eco_Skin.EcoToggleButton startwaittog;
+        private Eco_Skin.EcoToggleButton rightpresstog;
+        private Eco_Skin.EcoToggleButton nitrowaittog;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private Eco_Skin.EcoButton ecoButton2;
     }
 }
 

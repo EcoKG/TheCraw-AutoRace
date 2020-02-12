@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoRace.exe" size="351704">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoRace.exe" size="366552">
       <assemblyIdentity name="AutoRace" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+a+If0xX/ERE9YzS8Q/BL1c5p41l2R/rgd37gtLQgBQ=</dsig:DigestValue>
+        <dsig:DigestValue>oB6lDFSbWwF5hggiMVw2OJ188cstAsf33axsMjFvuDI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,19 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Witlrsat40Wbgh+8+aBXeTygbaX7ta6mSb8hyrZeVKQ=</dsig:DigestValue>
+        <dsig:DigestValue>VKs0J6uwHl9kSKKBefXfa7hyB4dKl27CCv3062kY1ss=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Eco_Lib.dll" size="17408">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Eco_Lib.dll" size="22016">
       <assemblyIdentity name="Eco_Lib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8u/NlN4KRfvlwOPX8N7srC6f7dMlasC7yHTEa+7Pds0=</dsig:DigestValue>
+        <dsig:DigestValue>/SpEYUtTLqSslGEL+9UmK7tqls/P3dq+isPvSxtm1Sw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
