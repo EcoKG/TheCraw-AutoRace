@@ -93,15 +93,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UI\UICloseButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="UI\UIMinButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="UI\EcoButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="Form\Form1.cs">
       <SubType>Form</SubType>
     </Compile>

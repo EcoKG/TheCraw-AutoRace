@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoRace.exe" size="366552">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoRace.exe" size="365016">
       <assemblyIdentity name="AutoRace" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>oB6lDFSbWwF5hggiMVw2OJ188cstAsf33axsMjFvuDI=</dsig:DigestValue>
+        <dsig:DigestValue>0zMyd4e8qDAEuoUH2wbrkWcxmRsjj6oxebfeUWcgnK0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VKs0J6uwHl9kSKKBefXfa7hyB4dKl27CCv3062kY1ss=</dsig:DigestValue>
+        <dsig:DigestValue>CWrAlG6rNo8vFJX0y9dUTumQQEAAvKlw8CUHSV3tK4c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
