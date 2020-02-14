@@ -51,7 +51,7 @@ namespace Eco_Lib
         {
             return _Imagesearch.ImgSearch(x1, y1, x2, y2, path, error, winname);
         }*/
-        public bool ImgSearch(int x1, int y1, int x2, int y2, string path, int error, string winname = "")
+        public object[] ImgSearch(int x1, int y1, int x2, int y2, string path, int error, string winname = "")
         {
             return _Imagesearch.ImgSearch2(x1, y1, x2, y2, path, error, winname);
         }

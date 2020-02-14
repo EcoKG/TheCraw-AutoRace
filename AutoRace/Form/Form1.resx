@@ -238,7 +238,7 @@
     <value>맑은 고딕, 11.25pt, style=Bold</value>
   </data>
   <data name="bruntimetxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 103</value>
+    <value>336, 37</value>
   </data>
   <data name="bruntimetxt.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>
@@ -391,7 +391,7 @@
     <value>맑은 고딕, 11.25pt, style=Bold</value>
   </data>
   <data name="rndmoneytb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 37</value>
+    <value>336, 103</value>
   </data>
   <data name="rndmoneytb.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>

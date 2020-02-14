@@ -205,6 +205,7 @@ namespace AutoRace
                     }
                     if (Eco.GetColor(143, 843) == "0x15E466")
                     {
+                        Eco.Delay(settinginfo.burntime);
                         Eco.SendUp(settinginfo.upkey, settinginfo.upkeytype);
                     }
                     else
@@ -243,7 +244,7 @@ namespace AutoRace
                 }
                 while (cancel)
                 {
-                    if (Eco.ImgSearch(660, 780, 1260, 1080, @"D:\Scripts\img\next.bmp", 20, "TheCrew2"))
+                    if (Eco.ImgSearch(660, 780, 1260, 1080, @"D:\Scripts\img\next.bmp", 20, "TheCrew2")[0].Equals(true))
                     {
                         cnt += 1;
                         Eco.SendUp(settinginfo.nitrokey, settinginfo.nitrokeytype);
@@ -251,7 +252,7 @@ namespace AutoRace
                         while (cancel)
                         {
                             Eco.SendDown(InputKeyLib.ScanCodeShort.ESCAPE, InputKeyLib.KEYEVENTF.SCANCODE);
-                            if (!Eco.ImgSearch(660, 780, 1260, 1080, @"D:\Scripts\img\next.bmp", 20, "TheCrew2"))
+                            if (Eco.ImgSearch(660, 780, 1260, 1080, @"D:\Scripts\img\next.bmp", 20, "TheCrew2")[0].Equals(false))
                             {
                                 Eco.SendUp(InputKeyLib.ScanCodeShort.ESCAPE, InputKeyLib.KEYEVENTF.SCANCODE);
                                 break;
@@ -264,12 +265,12 @@ namespace AutoRace
                 {
                     while (cancel)
                     {
-                        if (Eco.ImgSearch(660, 780, 1260, 1080, @"D:\Scripts\img\resume.bmp", 20, "TheCrew2"))
+                        if (Eco.ImgSearch(660, 780, 1260, 1080, @"D:\Scripts\img\resume.bmp", 20, "TheCrew2")[0].Equals(true))
                         {
                             Eco.SendDown(InputKeyLib.ScanCodeShort.KEY_N, InputKeyLib.KEYEVENTF.SCANCODE);
                             while (cancel)
                             {
-                                if (!Eco.ImgSearch(660, 780, 1260, 1080, @"D:\Scripts\img\resume.bmp", 20, "TheCrew2"))
+                                if (Eco.ImgSearch(660, 780, 1260, 1080, @"D:\Scripts\img\resume.bmp", 20, "TheCrew2")[0].Equals(false))
                                 {
                                     this.Invoke(new MethodInvoker(delegate ()
                                     {

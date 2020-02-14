@@ -18,7 +18,7 @@ namespace Eco_Lib.PixelHelper
         {
             return instance ?? (instance = new ImageSearch());
         }
-        public bool ImgSearch2(int x1, int y1, int x2, int y2, string path, int error, string winanme = "")
+        public object[] ImgSearch2(int x1, int y1, int x2, int y2, string path, int error, string winanme = "")
         {
             int srcstride, tapstride;
             bool sucess = false;
@@ -26,7 +26,7 @@ namespace Eco_Lib.PixelHelper
             BitmapData srcData, tapData;
             byte[] srcrgb;
             byte[] taprgb;
-
+            object[] result = new object[3];
             c = winanme == "" ? IntPtr.Zero : WinApis.FindWindow(null, winanme);
 
             int w = x1 == x2 ? x2 - 1 : x2 - x1;
@@ -79,7 +79,6 @@ namespace Eco_Lib.PixelHelper
                     {
                         if ((Math.Abs(srcrgb[srcstride * sh + sw * 3] - taprgb[0]) < error) && (Math.Abs(srcrgb[srcstride * sh + sw * 3 + 1] - taprgb[1]) < error) && (Math.Abs(srcrgb[srcstride * sh + sw * 3 + 2] - taprgb[2]) < error))
                         {
-
                             for (int th = 0; th < tbh - 1; th++)
                             {
                                 for (int tw = 0; tw < tbw - 1; tw++)
@@ -98,19 +97,18 @@ namespace Eco_Lib.PixelHelper
                                     break;
                             }
                             if (sucess)
-                                return sucess;
+                            {
+                                result = new object[] {sucess,sw,sh };
+                                return result;
+                            }
                         }
                     }
                 }
-                if (sucess)
-                {
-                    return sucess;
-                }
-                return sucess;
+                return new object[] { false, 0, 0 };
             }
             catch
             {
-                return false;
+                return new object[] { "error", 0, 0 };
             }
             finally
             {
