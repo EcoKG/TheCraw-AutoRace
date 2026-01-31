@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRace.Core", "AutoRace.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRace.Infrastructure", "AutoRace.Infrastructure\AutoRace.Infrastructure.csproj", "{951748FB-43E8-4426-B905-051F32D12226}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRace.Core.Tests", "AutoRace.Core.Tests\AutoRace.Core.Tests.csproj", "{90AC61F4-1A33-4042-98B7-472BCF2090B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{951748FB-43E8-4426-B905-051F32D12226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{951748FB-43E8-4426-B905-051F32D12226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{951748FB-43E8-4426-B905-051F32D12226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AC61F4-1A33-4042-98B7-472BCF2090B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AC61F4-1A33-4042-98B7-472BCF2090B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AC61F4-1A33-4042-98B7-472BCF2090B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AC61F4-1A33-4042-98B7-472BCF2090B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
