@@ -21,6 +21,24 @@ public static class Win32Api
     public static IntPtr FindWindowByTitle(string? title) => FindWindow(null, title);
 
     /// <summary>
+    /// Retrieves a handle to a device context (DC) for the client area of a window.
+    /// </summary>
+    [DllImport("user32.dll", SetLastError = true)]
+    public static extern IntPtr GetDC(IntPtr hwnd);
+
+    /// <summary>
+    /// Releases a device context (DC), freeing it for use by other applications.
+    /// </summary>
+    [DllImport("user32.dll", SetLastError = true)]
+    public static extern int ReleaseDC(IntPtr hwnd, IntPtr hdc);
+
+    /// <summary>
+    /// Retrieves the RGB color value of the pixel at the specified coordinates.
+    /// </summary>
+    [DllImport("gdi32.dll", SetLastError = true)]
+    public static extern uint GetPixel(IntPtr hdc, int x, int y);
+
+    /// <summary>
     /// Performs a bit-block transfer of the color data from a source device context to a destination device context.
     /// </summary>
     [DllImport("gdi32.dll", CharSet = CharSet.Auto, SetLastError = true, ExactSpelling = true)]
