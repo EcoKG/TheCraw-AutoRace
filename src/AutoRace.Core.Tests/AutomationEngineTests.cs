@@ -62,6 +62,23 @@ public sealed class AutomationEngineTests
         Assert.Equal(AutomationEventKind.Stopped, stopped.Kind);
     }
 
+    [Fact]
+    public async Task Start_Stop_Start_Emits_Second_Started()
+    {
+        using var engine = new AutomationEngine(ct => Task.Delay(10, ct));
+
+        await engine.StartAsync(CreateProfile("First"));
+        _ = await ReadUntilAsync(engine, AutomationEventKind.Started, TimeSpan.FromSeconds(1));
+
+        await engine.StopAsync();
+        _ = await ReadUntilAsync(engine, AutomationEventKind.Stopped, TimeSpan.FromSeconds(1));
+
+        await engine.StartAsync(CreateProfile("Second"));
+
+        var restarted = await ReadUntilAsync(engine, AutomationEventKind.Started, TimeSpan.FromSeconds(1));
+        Assert.Equal(AutomationEventKind.Started, restarted.Kind);
+    }
+
     private static async Task<AutomationEvent> ReadNextAsync(IAutomationEngine engine, TimeSpan timeout)
     {
         using var cts = new CancellationTokenSource(timeout);

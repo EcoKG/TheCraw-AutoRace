@@ -15,6 +15,8 @@ public sealed class AutomationEngine : IAutomationEngine, IDisposable
     private CancellationTokenSource? _cts;
     private Task? _runTask;
     private int _progress;
+    private bool _disposeRequested;
+    private bool _disposed;
 
     public ChannelReader<AutomationEvent> Events => _events.Reader;
 
@@ -38,6 +40,11 @@ public sealed class AutomationEngine : IAutomationEngine, IDisposable
 
         lock (_gate)
         {
+            if (_disposed)
+            {
+                throw new ObjectDisposedException(nameof(AutomationEngine));
+            }
+
             if (_runTask is not null && !_runTask.IsCompleted)
             {
                 throw new InvalidOperationException("Automation engine is already running.");
@@ -106,12 +113,19 @@ public sealed class AutomationEngine : IAutomationEngine, IDisposable
         finally
         {
             await PublishAsync(new AutomationEvent(AutomationEventKind.Stopped, DateTimeOffset.UtcNow), CancellationToken.None);
-            _events.Writer.TryComplete();
+            bool completeEvents;
 
             lock (_gate)
             {
                 _cts?.Dispose();
                 _cts = null;
+                _runTask = null;
+                completeEvents = _disposeRequested;
+            }
+
+            if (completeEvents)
+            {
+                _events.Writer.TryComplete();
             }
         }
     }
@@ -121,11 +135,24 @@ public sealed class AutomationEngine : IAutomationEngine, IDisposable
 
     public void Dispose()
     {
+        Task? runTask;
+
         lock (_gate)
         {
+            if (_disposed)
+            {
+                return;
+            }
+
+            _disposed = true;
+            _disposeRequested = true;
             _cts?.Cancel();
-            _cts?.Dispose();
-            _cts = null;
+            runTask = _runTask;
+        }
+
+        if (runTask is null || runTask.IsCompleted)
+        {
+            _events.Writer.TryComplete();
         }
     }
 }
