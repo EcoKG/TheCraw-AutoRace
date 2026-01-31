@@ -21,3 +21,8 @@ jobs:
 
       - name: Build
         run: dotnet build src/AutoRace.sln -c Release --no-restore
+
+      - name: Test
+        shell: pwsh
+        run: |
+          dotnet test src/AutoRace.sln -c Release --no-build
