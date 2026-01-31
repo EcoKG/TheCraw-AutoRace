@@ -8,10 +8,7 @@ public sealed class Win32PixelReader : IPixelReader
 {
     public Win32PixelReader()
     {
-        if (!OperatingSystem.IsWindows())
-        {
-            throw new PlatformNotSupportedException("Win32 pixel reading is only supported on Windows.");
-        }
+        if (!OperatingSystem.IsWindows()) throw new PlatformNotSupportedException("Win32 pixel reading is only supported on Windows.");
     }
 
     public Rgb24 GetColorAt(int x, int y)

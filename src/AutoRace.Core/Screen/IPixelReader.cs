@@ -7,9 +7,9 @@ public interface IPixelReader
 
 public readonly record struct Rgb24(byte R, byte G, byte B)
 {
-    public int ToRgb() => (R << 16) | (G << 8) | B;
+    public uint ToRgb() => (uint)((R << 16) | (G << 8) | B);
 
-    public static Rgb24 FromRgb(int rgb)
+    public static Rgb24 FromRgb(uint rgb)
     {
         var r = (byte)((rgb >> 16) & 0xFF);
         var g = (byte)((rgb >> 8) & 0xFF);
