@@ -7,6 +7,8 @@ Legacy project (originally WinForms / .NET Framework 4.7.2) for an auto-race hel
 - Rebuild UI in **WPF + MVVM**
 - Split into `Core` (pure logic), `Infrastructure` (WinAPI/input/pixel), and `App` (WPF)
 
+See: [Migration plan](docs/NET8_WPF_MVVM_MIGRATION_PLAN.md)
+
 ## Current solution
 - `TheCraw AutoRace.sln`
 - `AutoRace` (WinForms, .NET Framework 4.7.2)
